@@ -7,4 +7,4 @@ When cloned, run `npm install` to install dependencies
 
 TO DO: more styling and add more features
 
-[Screenshot of Crypto XCHG][https://imgur.com/TI83zy8]
+![Screenshot of Crypto XCHG][https://imgur.com/TI83zy8]
