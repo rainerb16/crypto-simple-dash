@@ -18,18 +18,47 @@ code {
   align-items: center;
 }
 
+h1 {
+  text-transform: capitalize;
+}
+
 .wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .news-feed {
-  background: rgb(117, 117, 117);
+  background: rgb(177, 177, 177);
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 1px 7px #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a :hover {
+  color: crimson;
 }
 
 .currency-converter {
   background: rgb(216, 216, 216);
+  padding: 10px;
+  box-shadow: 0 1px 7px #000;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 .exchange-rate {
-  background: pink;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 700;
 }

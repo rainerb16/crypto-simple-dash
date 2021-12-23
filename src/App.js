@@ -4,7 +4,7 @@ import Newsfeed from "./components/Newsfeed";
 const App = () => {
     return (
         <div className="app">
-            <h1>Crypto-XCHG</h1>
+            <h1 className="title">Crypto-XCHG</h1>
             <div className="wrapper">
                 <CurrencyConverter />
                 <Newsfeed />

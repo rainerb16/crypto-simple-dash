@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const ExchangeRate = ({ exchangeRate, fromCurrency, toCurrency }) => {
-    return (
-        <div className='exchange-rate'>
-            <h3>Exchange Rate</h3>
-            <h4>{exchangeRate}</h4>
-            <p>{fromCurrency} to {toCurrency}</p>
-        </div>
-    )
-}
+  return (
+    <div className='exchange-rate'>
+      <h2>Exchange Rate :</h2>
+      <h2>{exchangeRate}</h2>
+      <p>{fromCurrency} to {toCurrency}</p>
+    </div>
+  );
+};
 
-export default ExchangeRate
+export default ExchangeRate;
